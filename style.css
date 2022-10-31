@@ -9,7 +9,7 @@
 #headerMenu {
     display: flex;
 }
-#menu {
+.menu {
     list-style: none;
     margin-left: 20px;
 
