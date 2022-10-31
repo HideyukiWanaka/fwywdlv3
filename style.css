@@ -1,0 +1,11 @@
+#headerLogo{
+    position: absolute;
+    width: 128px;
+    height: 45.44px;
+    left: 360px;
+    top: 15px;
+}
+
+#headerMenu{
+    display: flex;
+}
