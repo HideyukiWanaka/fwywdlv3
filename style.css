@@ -1,4 +1,4 @@
-#headerLogo{
+#headerLogo {
     position: absolute;
     width: 128px;
     height: 45.44px;
@@ -6,6 +6,6 @@
     top: 15px;
 }
 
-#headerMenu{
+#headerMenu      {
     display: flex;
 }
