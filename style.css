@@ -8,12 +8,11 @@
 
 #headerMenu {
     display: flex;
+    position: absolute;
+    left: 686px;
+    top: 12px;
 }
 .menu {
     list-style: none;
     margin-left: 20px;
-
-    position: absolute;
-    left: 686px;
-    top: 12px;
 }
