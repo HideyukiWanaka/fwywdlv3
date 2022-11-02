@@ -6,19 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fwywd lv3</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="img/header_logo.svg" id="headerLogo">
-        <ul id="headerMenu">
-            <li class="menu">起業家育成</li>
-            <li class="menu">コンセプト</li>
-            <li class="menu">採用</li>
-            <li class="menu">ニュース</li>
-            <li class="menu">運営会社</li>
-        </ul>
-        <button type="button" name="btn" onclick="https://forms.gle/q44AHos9mTJ7rLQ46"><img src="img/Polygon 2.svg">無料説明会へ申し込み</button>
-
+        <div id="header-contents">
+            <img src="img/header_logo.svg" id="headerLogo">
+            <ul id="headerMenu">
+                <li class="menu"><a href="">HOME</a></li>
+                <li class="menu left_border"><a href="">起業家育成</a></li>
+                <li class="menu left_border"><a href="">コンセプト</a></li>
+                <li class="menu left_border"><a href="">採用</a></li>
+                <li class="menu left_border"><a href="">ニュース</a></li>
+                <li class="menu left_border"><a href="">運営会社</a></li>
+            </ul>
+            <button type="button" name="btn" onclick="https://forms.gle/q44AHos9mTJ7rLQ46" 
+                class="button" id="button_green"><img src="img/Polygon 2.svg" >
+                <span>無料説明会へ申し込み</span>
+            </button>
+        </div>
     </header>
 </body>
 </html>

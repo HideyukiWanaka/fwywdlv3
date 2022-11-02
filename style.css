@@ -1,3 +1,12 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+header {
+    height: 77px;
+    background-color: #fff;
+}
+
 #headerLogo {
     position: absolute;
     width: 128px;
@@ -8,11 +17,34 @@
 
 #headerMenu {
     display: flex;
+    width: 599px;
     position: absolute;
     left: 686px;
     top: 12px;
+    font-size: 16px;
 }
 .menu {
     list-style: none;
-    margin-left: 20px;
+    padding:0 15px;
+}
+.left_border {
+    border-left:solid 1px silver;
+}
+a { color: #000; text-decoration:none; }
+
+button {
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 23px;
+    border: none;
+}
+button span {
+    margin-left: 9px;
+}
+#button_green {
+    background-color:  #007979;
+    height: 77px;
+    position:absolute;
+    left: 1300px;
+    top: 0px;
 }
