@@ -1,50 +1,65 @@
+/* Fundation */
 body {
     font-family: "Noto Sans JP";
+    color: #384359;
+    font-weight: 600;
+    
+}
+a {
+    text-decoration: none;
+    color: #384359;
 }
 
-header {
-    height: 77px;
-    background-color: #fff;
+.bg-primary {
+    background-color: #007979;
 }
 
-#headerLogo {
-    position: absolute;
-    width: 128px;
-    height: 45.44px;
-    left: 360px;
-    top: 15px;
-}
-
-#headerMenu {
+/* Lay out */
+.flex {
     display: flex;
-    width: 599px;
-    position: absolute;
-    left: 686px;
-    top: 12px;
-    font-size: 16px;
 }
-.menu {
-    list-style: none;
-    padding:0 15px;
-}
-.left_border {
-    border-left:solid 1px silver;
-}
-a { color: #000; text-decoration:none; }
 
-button {
-    font-size: 16px;
+.justify-between{
+    justify-content: space-between;
+}
+
+.list-style {
+    list-style: none;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.gap-10 {
+    gap: 0px 10px;
+}
+
+/* border */
+.border-right {
+    border-right: solid 1px #e4e4e4;
+}
+
+.text-white{
     color: #FFFFFF;
-    padding: 23px;
-    border: none;
 }
-button span {
-    margin-left: 9px;
+
+/* Padding */
+.px-30{
+    padding-left: 30px;
+    padding-right: 30px;
 }
-#button_green {
-    background-color:  #007979;
-    height: 77px;
-    position:absolute;
-    left: 1300px;
-    top: 0px;
+
+.px-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.py-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pl-360{
+    padding-left: 360px;
 }

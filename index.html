@@ -11,21 +11,26 @@
 </head>
 <body>
     <header>
-        <div id="header-contents">
-            <img src="img/header_logo.svg" id="headerLogo">
-            <ul id="headerMenu">
-                <li class="menu"><a href="">HOME</a></li>
-                <li class="menu left_border"><a href="">起業家育成</a></li>
-                <li class="menu left_border"><a href="">コンセプト</a></li>
-                <li class="menu left_border"><a href="">採用</a></li>
-                <li class="menu left_border"><a href="">ニュース</a></li>
-                <li class="menu left_border"><a href="">運営会社</a></li>
-            </ul>
-            <button type="button" name="btn" onclick="https://forms.gle/q44AHos9mTJ7rLQ46" 
-                class="button" id="button_green"><img src="img/Polygon 2.svg" >
-                <span>無料説明会へ申し込み</span>
-            </button>
-        </div>
+       <nav class="flex align-center header__container">
+            <div class="pl-360"><a href="/"><img src="./img/header_logo.svg" alt="Logo" width="128" >
+                </a>
+            </div>
+            <div>
+                <ul class="flex list-style ">
+                    <li class="px-20 border-right"><a href="#">HOME</a></li>
+                    <li class="px-20 border-right"><a href="#">起業家育成</a></li>
+                    <li class="px-20 border-right"><a href="#">コンセプト</a></li>
+                    <li class="px-20 border-right"><a href="#">採用</a></li>
+                    <li class="px-20 border-right"><a href="#">ニュース</a></li>
+                    <li class="px-20"><a href="#">運営会社</a></li>
+                </ul>
+            </div>
+            <div class="bg-primary ">
+                <a href="#" class="flex gap-10 text-white px-30 py-20">
+                <img src="./img/Polygon 2.svg" alt="allow">
+                無料説明会に申し込み</a>
+            </div>
+        </nav>
     </header>
 </body>
 </html>
