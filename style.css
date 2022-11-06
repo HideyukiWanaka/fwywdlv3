@@ -1,20 +1,3 @@
-/* Fundation */
-body {
-    font-family: "Noto Sans JP";
-    color: #384359;
-    font-weight: 600;
-    
-}
-a {
-    text-decoration: none;
-    color: #384359;
-}
-
-.bg-primary {
-    background-color: #007979;
-}
-
-/* Lay out */
 .flex {
     display: flex;
 }
@@ -23,43 +6,88 @@ a {
     justify-content: space-between;
 }
 
-.list-style {
-    list-style: none;
-}
-
-.align-center{
+.items-center {
     align-items: center;
 }
 
+.hidden {
+    display: none;
+}
+
 .gap-10 {
-    gap: 0px 10px;
+    gap: 0.625rem;
 }
 
-/* border */
-.border-right {
-    border-right: solid 1px #e4e4e4;
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.px-14 {
+    padding-left: 14px;
+    padding-right: 14px;
 }
 
-.text-white{
+.py-22 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-primary {
+    background-color: #007979;
+}
+
+body {
+    list-style: none;
+    font-family: "Noto sans JP";
+    font-weight: 600;
+    color: #384459;
+}
+
+.text-black {
+    color: #384459;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-11 {
+    font-size: 11px;
+}
+
+.text-white {
     color: #FFFFFF;
 }
 
-/* Padding */
-.px-30{
-    padding-left: 30px;
-    padding-right: 30px;
-}
+@media (min-width: 1024px) {
+    .lg-inline {
+        display: inline;
+    }
 
-.px-20 {
-    padding-left: 20px;
-    padding-right: 20px;
-}
+    .flex {
+        display: flex;
+    }
 
-.py-20 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+    .list-none {
+        list-style: none;
+    }
 
-.pl-360{
-    padding-left: 360px;
+    .border-right {
+        border-right: solid 1px #E1E1E1;
+    }
+
+    .lg-px50{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .lg-text-16 {
+        font-size: 16px;
+    }
+
 }
