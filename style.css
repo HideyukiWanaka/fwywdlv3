@@ -73,6 +73,10 @@ a {
         display: flex;
     }
 
+    .opacity{
+        opacity: 0.28;
+    }
+
     .list-none {
         list-style: none;
     }
