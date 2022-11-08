@@ -94,4 +94,9 @@ a {
         font-size: 16px;
     }
 
+    .lg-polygon-size {
+        width: 23px;
+        height: 28px;
+    }
+
 }
