@@ -1,50 +1,93 @@
-body {
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
-header {
-    height: 77px;
-    background-color: #fff;
-}
-
-#headerLogo {
-    position: absolute;
-    width: 128px;
-    height: 45.44px;
-    left: 360px;
-    top: 15px;
-}
-
-#headerMenu {
+.flex {
     display: flex;
-    width: 599px;
-    position: absolute;
-    left: 686px;
-    top: 12px;
-    font-size: 16px;
 }
-.menu {
-    list-style: none;
-    padding:0 15px;
-}
-.left_border {
-    border-left:solid 1px silver;
-}
-a { color: #000; text-decoration:none; }
 
-button {
-    font-size: 16px;
+.justify-between{
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.gap-10 {
+    gap: 0.625rem;
+}
+
+.px-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.px-14 {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.py-22 {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.py-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg-primary {
+    background-color: #007979;
+}
+
+body {
+    list-style: none;
+    font-family: "Noto sans JP";
+    font-weight: 600;
+    color: #384459;
+}
+
+.text-black {
+    color: #384459;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text-11 {
+    font-size: 11px;
+}
+
+.text-white {
     color: #FFFFFF;
-    padding: 23px;
-    border: none;
 }
-button span {
-    margin-left: 9px;
-}
-#button_green {
-    background-color:  #007979;
-    height: 77px;
-    position:absolute;
-    left: 1300px;
-    top: 0px;
+
+@media (min-width: 1024px) {
+    .lg-inline {
+        display: inline;
+    }
+
+    .flex {
+        display: flex;
+    }
+
+    .list-none {
+        list-style: none;
+    }
+
+    .border-right {
+        border-right: solid 1px #E1E1E1;
+    }
+
+    .lg-px50{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .lg-text-16 {
+        font-size: 16px;
+    }
+
 }

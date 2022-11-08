@@ -4,29 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
     <title>fwywd lv3</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+   
 </head>
 <body>
     <header>
-        <div id="header-contents">
-            <img src="img/header_logo.svg" id="headerLogo">
-            <ul id="headerMenu">
-                <li class="menu"><a href="">HOME</a></li>
-                <li class="menu left_border"><a href="">起業家育成</a></li>
-                <li class="menu left_border"><a href="">コンセプト</a></li>
-                <li class="menu left_border"><a href="">採用</a></li>
-                <li class="menu left_border"><a href="">ニュース</a></li>
-                <li class="menu left_border"><a href="">運営会社</a></li>
-            </ul>
-            <button type="button" name="btn" onclick="https://forms.gle/q44AHos9mTJ7rLQ46" 
-                class="button" id="button_green"><img src="img/Polygon 2.svg" >
-                <span>無料説明会へ申し込み</span>
-            </button>
-        </div>
+       <nav class="flex justify-between items-center lg-px50">
+            <div><a href="/"><img src="./img/header_logo.svg" alt="Logo" width="128" class="px-14">
+                </a>
+            </div>
+            <div>
+                <ul class="hidden flex lg-inline list-none">
+                    <li class="px-16 border-right"><a href="#" class="text-black">HOME</a></li>
+                    <li class="px-16 border-right"><a href="#" class="text-black">起業家育成</a></li>
+                    <li class="px-16 border-right"><a href="#" class="text-black">コンセプト</a></li>
+                    <li class="px-16 border-right"><a href="#" class="text-black">採用</a></li>
+                    <li class="px-16 border-right"><a href="#" class="text-black">ニュース</a></li>
+                    <li class="px-16"><a href="#" class="text-black">運営会社</a></li>
+                </ul>
+            </div>
+            <div class=>
+                <a href="#" class="flex gap-10 bg-primary text-11 lg-text-16 px-16 py-22 text-white">
+                <img src="./img/Polygon 2.svg" alt="allow">
+                無料説明会に申し込み</a>
+            </div>
+        </nav>
     </header>
 </body>
 </html>
