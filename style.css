@@ -84,7 +84,6 @@ a {
     padding: 35px 0;
 }
 
-
 .top-45 {
     top: 45px;
 }
@@ -205,7 +204,7 @@ a {
 /** ================= **/
 /** md : width > 640px
 /** ================= **/
-@media (min-width: 640px){
+@media screen and (min-width: 640px){
 
 
 
@@ -215,7 +214,7 @@ a {
 /** ================= **/
 /** md : width > 768px
 /** ================= **/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .list-none {
         list-style: none;
     }
@@ -279,8 +278,17 @@ a {
 /** ================= **/
 /** lg : width > 1024px
 /** ================= **/
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     /** faundation **/
+    body {
+        list-style: none;
+        font-family: "Noto sans JP";
+        font-weight: 600;
+        font-size: 13px;
+        color: #384459;
+    }
+
+
     .list-none {
         list-style: none;
     }
@@ -381,14 +389,73 @@ a {
 /** ================= **/
 /**  xl: width > 1280px
 /** ================= **/
-@media (min-width: 1280px){
+@media screen and (min-width: 1280px){
     .xl_max-w-1280{
         max-width: 1280px;
+        margin: 0px auto !important;
     }
 
     .xl_m-auto{
         margin: 0px auto !important;
     }
-
     
+    .xl_grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 80px 1fr 1fr;
+        padding: 60px 0 130px;
+    }
+
+    .xl_hero01-grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .xl_hero01-layout {
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    .xl_btn-layout {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .xl_btn-width {
+        width: 260px;
+    }
+
+    .xl_hero01-2-layout {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+
+    .xl_py20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .xl_pb40 {
+        padding-bottom: 40px;
+    }
+    
+    .xl_text-18 {
+        font-size: 18px;
+    }
+
+    .xl_text-20 {
+        font-size: 20px;
+    }
+
+    .xl_text-23 {
+        font-size: 23px;
+    }
+
+    .xl_cross-size {
+        width: 20px;
+        height: 4px;
+    }
 }
