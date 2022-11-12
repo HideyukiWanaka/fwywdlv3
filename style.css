@@ -39,10 +39,8 @@ a {
 }
 
 .hero01-bg {
-    width: 100%;
-    height: 57vw;
-    background: url(./img/AdobeStock_269542281.png) no-repeat;
-    background-size: 100% auto;
+    background-image: url(./img/AdobeStock_269542281.png);
+    background-size: cover;
 }
 
 /** layout **/
@@ -80,10 +78,15 @@ a {
 
 .grid {
     width: 100%;
-    height: 100%;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     justify-items: center;
+    padding: 35px 0;
+}
+
+.justify-center
+.align-end {
+    align-self: ;
 }
 
 .top-45 {
@@ -98,7 +101,6 @@ a {
     top: 102px;
 }
 
-
 .centering {
     left: 50%;
     transform: translateX(-50%);
@@ -106,6 +108,10 @@ a {
 
 .margin-center {
     margin:0 auto;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /** spacing **/
@@ -123,16 +129,25 @@ a {
     padding-bottom: 22px;
 }
 
+.py-13 {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
 .py-10 {
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.pt-10 {
+.pt-15 {
     padding-top: 15px;
 }
 
-.pb-10{
+.pt-14 {
+    padding-top: 14px;
+}
+
+.pb-15{
     padding-bottom: 15px;
 }
 
@@ -157,8 +172,12 @@ a {
     color: #FFFFFF;
 }
 
+.text-primary {
+    color: #007979;
+}
+
 .under-bar {
-    background: linear-gradient(transparent 60%, #FFFFFF 60%);
+    background: linear-gradient(transparent 70%, #FFFFFF 70%);
 }
 
 /** font size **/
@@ -166,9 +185,25 @@ a {
     font-size: 11px;
 }
 
+.text-10 {
+    font-size: 10px;
+}
+
+.text-13 {
+    font-size: 13px;
+}
+
 .btn:hover {
     opacity: 0.7;
     transition: 0.5s;
+}
+
+.border-radius {
+    border-radius: 2.5px;
+}
+
+.box-shadow {
+    box-shadow: 0px 2.70108px 13.5054px #FFFFFF, -2.70108px -2.70108px 13.5054px #FFFFFF;
 }
 
 /** ================= **/
@@ -184,7 +219,66 @@ a {
 /** ================= **/
 /** md : width > 768px
 /** ================= **/
+@media (min-width: 768px) {
+    .list-none {
+        list-style: none;
+    }
 
+    .md_opacity{
+        opacity: 0.28;
+    }
+    
+    
+    .md_grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 50px 1fr 1fr;
+        padding: 20px 0 80px;
+    }
+
+    .md_hero01-grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1.2fr 1fr;
+    }
+
+    .md_hero01-layout {
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    .md_btn-layout {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .md_hero01-2-layout {
+        grid-row: 1/3;
+        grid-column: 2/3;
+    }
+
+    .md_inline {
+        display: inline;
+    }
+
+    .md_flex {
+        display: flex;
+    }
+
+    /** border **/
+    .border-right {
+        border-right: solid 1px #E1E1E1;
+    }
+
+    /** font size **/
+    .md_text-10 {
+        font-size: 10px;
+    }
+
+
+}
 
 /** ================= **/
 /** lg : width > 1024px
@@ -194,34 +288,91 @@ a {
     .list-none {
         list-style: none;
     }
-    
+
+
+    .lg-cross-size {
+        width: 15px;
+        height: 4px;
+    }
+
+    .lg_grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 80px 1fr 1fr;
+        padding: 40px 0 100px;
+    }
+
+    .lg_hero01-grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1.2fr 1fr;
+    }
+
+    .lg_hero01-layout {
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    .lg_btn-layout {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .lg_hero01-2-layout {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+
+
     /** layout **/
     .lg_inline {
         display: inline;
     }
 
-    .flex {
+    .lg_flex {
         display: flex;
+    }
+
+    .lg-relative {
+        position: relative;
+    }
+
+    .lg-absolute {
+        position: absolute;
     }
 
     .lg_opacity{
         opacity: 0.28;
     }
 
-/** border **/
+    /** border **/
     .border-right {
         border-right: solid 1px #E1E1E1;
     }
 
-/** spacing **/
+    /** spacing **/
     .lg_px50{
         padding-left: 50px;
         padding-right: 50px;
     }
 
+    .lg_pb40 {
+        padding-bottom: 40px;
+    }
+
+    .lg_gap-40 {
+        gap: 40px;
+    }
+
     /** font size **/
     .lg_text-16 {
         font-size: 16px;
+    }
+
+    .lg_text-23 {
+        font-size: 23px;
     }
 
     .lg_polygon-size {
