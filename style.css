@@ -193,6 +193,11 @@ a {
     transition: 0.5s;
 }
 
+.logo:hover {
+    opacity: 0.25;
+    transition: 0.5s;
+}
+
 .border-radius {
     border-radius: 2.5px;
 }
