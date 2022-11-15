@@ -107,6 +107,10 @@ a {
     top: 102px;
 }
 
+.bottom--70{
+    bottom: -70px;
+}
+
 .centering {
     left: 50%;
     transform: translateX(-50%);
@@ -185,6 +189,10 @@ a {
     width: 327px;
 }
 
+.width-292 {
+    width: 292px;
+}
+
 .height-727 {
     height: 727px;
 }
@@ -192,6 +200,8 @@ a {
 .gap-40 {
     gap: 40px;
 }
+
+
 
 /** color **/
 .bg-primary {
@@ -283,255 +293,6 @@ a {
 }
 
 
-/** ================= **/
-/** md : width > 768px
-/** ================= **/
-@media screen and (min-width: 768px) {
-    .list-none {
-        list-style: none;
-    }
-
-    .md_opacity{
-        opacity: 0.28;
-    }
-    
-    
-    .md_grid {
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        grid-template-rows: 50px 1fr 1fr;
-        padding: 20px 0 80px;
-    }
-
-    .md_hero01-grid {
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 1.2fr 1fr;
-    }
-
-    .md_hero01-layout {
-        grid-row: 1/3;
-        grid-column: 1/2;
-    }
-
-    .md_btn-layout {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-
-    .md_hero01-2-layout {
-        grid-row: 1/3;
-        grid-column: 2/3;
-    }
-
-    .md_inline {
-        display: inline;
-    }
-
-    .md_flex {
-        display: flex;
-    }
-
-    /** border **/
-    .border-right {
-        border-right: solid 1px #E1E1E1;
-    }
-
-    /** font size **/
-    .md_text-10 {
-        font-size: 10px;
-    }
 
 
-}
 
-/** ================= **/
-/** lg : width > 1024px
-/** ================= **/
-@media screen and (min-width: 1024px) {
-    /** faundation **/
-    body {
-        list-style: none;
-        font-family: "Noto sans JP";
-        font-weight: 600;
-        font-size: 13px;
-        color: #384459;
-    }
-
-
-    .list-none {
-        list-style: none;
-    }
-
-
-    .lg-cross-size {
-        width: 15px;
-        height: 4px;
-    }
-
-    .lg_grid {
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        grid-template-rows: 80px 1fr 1fr;
-        padding: 40px 0 100px;
-    }
-
-    .lg_hero01-grid {
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 1.2fr 1fr;
-    }
-
-    .lg_hero01-layout {
-        grid-row: 1/3;
-        grid-column: 1/2;
-    }
-
-    .lg_btn-layout {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-
-    .lg_hero01-2-layout {
-        grid-row: 1 / 3;
-        grid-column: 2 / 3;
-    }
-
-
-    /** layout **/
-    .lg_inline {
-        display: inline;
-    }
-
-    .lg_flex {
-        display: flex;
-    }
-
-    .lg-relative {
-        position: relative;
-    }
-
-    .lg-absolute {
-        position: absolute;
-    }
-
-    .lg_opacity{
-        opacity: 0.28;
-    }
-
-    /** border **/
-    .border-right {
-        border-right: solid 1px #E1E1E1;
-    }
-
-    /** spacing **/
-    .lg_px50{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-
-    .lg_pb40 {
-        padding-bottom: 40px;
-    }
-
-    .lg_gap-40 {
-        gap: 40px;
-    }
-
-    /** font size **/
-    .lg_text-16 {
-        font-size: 16px;
-    }
-
-    .lg_text-23 {
-        font-size: 23px;
-    }
-
-    .lg_polygon-size {
-        width: 23px;
-        height: 28px;
-    }
-
-}
-
-/** ================= **/
-/**  xl: width > 1280px
-/** ================= **/
-@media screen and (min-width: 1280px){
-    .xl_max-w-1280{
-        max-width: 1280px;
-        margin: 0px auto !important;
-    }
-
-    .xl_m-auto{
-        margin: 0px auto !important;
-    }
-    
-    .xl_grid {
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        grid-template-rows: 80px 1fr 1fr;
-        padding: 60px 0 130px;
-    }
-
-    .xl_hero01-grid {
-        width: 100%;
-        display: grid;
-        justify-items: center;
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .xl_hero01-layout {
-        grid-row: 1/3;
-        grid-column: 1/2;
-    }
-
-    .xl_btn-layout {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-
-    .xl_btn-width {
-        width: 260px;
-    }
-
-    .xl_hero01-2-layout {
-        grid-row: 1 / 3;
-        grid-column: 2 / 3;
-    }
-
-    .xl_py20 {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .xl_pb40 {
-        padding-bottom: 40px;
-    }
-    
-    .xl_text-15 {
-        font-size: 15px;
-    }
-
-    .xl_text-18 {
-        font-size: 18px;
-    }
-
-    .xl_text-20 {
-        font-size: 20px;
-    }
-
-    .xl_text-23 {
-        font-size: 23px;
-    }
-
-    .xl_cross-size {
-        width: 20px;
-        height: 4px;
-    }
-}

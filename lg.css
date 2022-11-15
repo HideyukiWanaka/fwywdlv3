@@ -1,0 +1,138 @@
+
+/** ================= **/
+/** lg : width > 1024px
+/** ================= **/
+@media screen and (min-width: 1024px) {
+    /** faundation **/
+    body {
+        list-style: none;
+        font-family: "Noto sans JP";
+        font-weight: 600;
+        font-size: 13px;
+        color: #384459;
+    }
+
+    .list-none {
+        list-style: none;
+    }
+
+
+    .lg-cross-size {
+        width: 15px;
+        height: 4px;
+    }
+
+    .lg_grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 80px 1fr 1fr;
+        padding: 40px 0 100px;
+    }
+
+    .lg_hero01-grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1.2fr 1fr;
+    }
+
+    .lg_hero01-layout {
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    .lg_btn-layout {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .lg_hero01-2-layout {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+
+
+    /** layout **/
+    .lg_inline {
+        display: inline;
+    }
+
+    .lg_flex {
+        display: flex;
+    }
+
+    .lg-relative {
+        position: relative;
+    }
+
+    .lg-absolute {
+        position: absolute;
+    }
+
+    .lg_left--250 {
+        right: -150px;
+    }
+
+    .lg_opacity{
+        opacity: 0.28;
+    }
+
+    /** border **/
+    .border-right {
+        border-right: solid 1px #E1E1E1;
+    }
+
+    /** spacing **/
+    .lg_px50{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .lg_pb40 {
+        padding-bottom: 40px;
+    }
+
+    .lg_ml-50 {
+        margin-left: 50px;
+    }
+
+    .lg_gap-40 {
+        gap: 40px;
+    }
+
+    .lg_width-100p {
+        width: 100%;
+    }
+
+    .lg_width-60p {
+        width: 50%;
+    }
+
+    .lg_width-580 {
+        width: 580px;
+    }
+
+    .lg_width-560 {
+        width: 560px;
+    }
+
+    .lg_height-400 {
+        height: 400px;
+    }
+
+    /** font size **/
+    .lg_text-16 {
+        font-size: 16px;
+    }
+
+    .lg_text-23 {
+        font-size: 23px;
+    }
+
+    .lg_polygon-size {
+        width: 23px;
+        height: 28px;
+    }
+
+}
