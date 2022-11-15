@@ -1,0 +1,104 @@
+
+/** ================= **/
+/**  xl: width > 1280px
+/** ================= **/
+@media screen and (min-width: 1280px){
+    .xl_max-w-1280{
+        max-width: 1280px;
+        margin: 0px auto !important;
+    }
+
+/* layout */
+
+    .xl_m-auto{
+        margin: 0px auto !important;
+    }
+    
+    .xl_grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-rows: 80px 1fr 1fr;
+        padding: 60px 0 130px;
+    }
+
+    .xl_hero01-grid {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .xl_hero01-layout {
+        grid-row: 1/3;
+        grid-column: 1/2;
+    }
+
+    .xl_btn-layout {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+
+    .xl_btn-width {
+        width: 260px;
+    }
+
+    .xl_hero01-2-layout {
+        grid-row: 1 / 3;
+        grid-column: 2 / 3;
+    }
+
+    .xl_width-1100 {
+        width: 1100px;
+    }
+
+    .xl_width-350 {
+        width: 350px;
+    }
+
+    .xl_top-100 {
+        top: 140px;
+    }
+
+    .xl_right-5 {
+        right: 5px;
+    }
+
+    /* spacing */
+
+    .xl_py20 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .xl_pb40 {
+        padding-bottom: 40px;
+    }
+
+    .xl_ml-150 {
+        margin-left: 150px;
+    }
+
+    /* font size */
+    
+    .xl_text-15 {
+        font-size: 15px;
+    }
+
+    .xl_text-18 {
+        font-size: 18px;
+    }
+
+    .xl_text-20 {
+        font-size: 20px;
+    }
+
+    .xl_text-23 {
+        font-size: 23px;
+    }
+
+    .xl_cross-size {
+        width: 20px;
+        height: 4px;
+    }
+}
