@@ -42,6 +42,10 @@
     width: 260px;
   }
 
+  .xl_border-width {
+    border-width: 110px 640px 0 640px;
+  }
+
   .xl_hero01-2-layout {
     grid-row: 1 / 3;
     grid-column: 2 / 3;
