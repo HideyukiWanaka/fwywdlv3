@@ -86,6 +86,16 @@
     padding-right: 50px;
   }
 
+  .lg_py40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .lg_py15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
   .lg_pb40 {
     padding-bottom: 40px;
   }
@@ -114,6 +124,18 @@
     width: 560px;
   }
 
+  .lg_width-400 {
+    width: 400px;
+  }
+
+  .lg_width-80 {
+    width: 80px;
+  }
+
+  .lg_width-55 {
+    width: 55px;
+  }
+
   .lg_height-400 {
     height: 400px;
   }
@@ -123,8 +145,24 @@
     font-size: 16px;
   }
 
+  .lg_text-18 {
+    font-size: 18px;
+  }
+
+  .lg_text-20 {
+    font-size: 20px;
+  }
+
   .lg_text-23 {
     font-size: 23px;
+  }
+
+  .lg_text-30 {
+    font-size: 30px;
+  }
+
+  .lg_text-35 {
+    font-size: 35px;
   }
 
   .lg_polygon-size {
