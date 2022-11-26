@@ -22,6 +22,11 @@
     display: block;
   }
 
+  .md_hero02-bg {
+    background-image: url(./img/hero02_bg2.png);
+    background-size: cover;
+  }
+
   /* layout */
   .md_grid {
     width: 100%;
@@ -170,8 +175,18 @@
     right: 150px;
   }
 
-  .mg_pr-0 {
+  .md_pr-0 {
     padding: 0;
+  }
+
+  .md_py-60 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .md_py-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 
   .md_gap-20 {

@@ -7,6 +7,11 @@
     margin: 0px auto !important;
   }
 
+  .xl_hero02-bg {
+    background-image: url(./img/hero02_bg2.png);
+    background-size: contain;
+  }
+
   /* layout */
 
   .xl_m-auto {
@@ -40,6 +45,10 @@
 
   .xl_btn-width {
     width: 260px;
+  }
+
+  .xl_width-280 {
+    width: 280px;
   }
 
   .xl_width-85 {
@@ -80,6 +89,11 @@
   .xl_py5 {
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  .xl_py10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .xl_py20 {
