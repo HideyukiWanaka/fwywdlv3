@@ -7,11 +7,6 @@
     margin: 0px auto !important;
   }
 
-  .xl_hero02-bg {
-    background-image: url(./img/hero02_bg2.png);
-    background-size: contain;
-  }
-
   /* layout */
 
   .xl_m-auto {
@@ -70,6 +65,14 @@
 
   .xl_width-350 {
     width: 350px;
+  }
+
+  .xl_width-200 {
+    width: 200px;
+  }
+
+  .xl_width-120 {
+    width: 120px;
   }
 
   .xl_top-100 {
