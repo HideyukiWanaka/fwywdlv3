@@ -11,6 +11,12 @@
     color: #384459;
   }
 
+  .lg_hero02-bg {
+    background-image: url(./img/hero02_bg2.png);
+    background-size: cover;
+    background-position: center;
+  }
+
   .list-none {
     list-style: none;
   }
@@ -131,6 +137,10 @@
 
   .lg_width-400 {
     width: 400px;
+  }
+
+  .lg_width-200 {
+    width: 200px;
   }
 
   .lg_width-80 {

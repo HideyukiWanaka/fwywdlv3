@@ -42,6 +42,10 @@
     width: 260px;
   }
 
+  .xl_width-280 {
+    width: 280px;
+  }
+
   .xl_width-85 {
     width: 75px;
   }
@@ -63,6 +67,14 @@
     width: 350px;
   }
 
+  .xl_width-200 {
+    width: 200px;
+  }
+
+  .xl_width-120 {
+    width: 120px;
+  }
+
   .xl_top-100 {
     top: 140px;
   }
@@ -80,6 +92,11 @@
   .xl_py5 {
     padding-top: 5px;
     padding-bottom: 5px;
+  }
+
+  .xl_py10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .xl_py20 {
