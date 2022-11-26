@@ -51,7 +51,20 @@ a {
   background-size: cover;
 }
 
+.hero02-bg {
+  background-image: url(./img/hero02_bg2.png);
+  background-size: cover;
+}
+
 /** layout **/
+.froat {
+  float: left;
+}
+
+.clear-both {
+  clear: both;
+}
+
 .flex {
   display: flex;
 }
@@ -74,6 +87,10 @@ a {
 
 .items-center {
   align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .text-center {
@@ -216,13 +233,29 @@ a {
   padding-right: 47px;
 }
 
+.px-23 {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .px-16 {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .px-14 {
   padding-left: 14px;
   padding-right: 14px;
+}
+
+.py-83 {
+  padding-top: 83px;
+  padding-bottom: 83px;
 }
 
 .py-24 {
@@ -233,6 +266,11 @@ a {
 .py-22 {
   padding-top: 22px;
   padding-bottom: 22px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .py-13 {
@@ -340,6 +378,18 @@ a {
   width: 292px;
 }
 
+.width-284 {
+  width: 284px;
+}
+
+.width-120 {
+  width: 150px;
+}
+
+.width-96 {
+  width: 96px;
+}
+
 .width-65 {
   width: 65px;
 }
@@ -410,11 +460,21 @@ a {
 }
 
 .text-linear {
-  color: #007979;
-  background-color: linear-gradient(#2ea1aa 100% #06bc7a 100%);
-  background-clip: text;
+  color: #acb6e5;
+  background: -webkit-linear-gradient(0deg, #2ea1aa, #06bc7a);
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-marker {
+  background: linear-gradient(#2ea1aa, #06bc7a);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 100%;
+}
+
+.text-bar {
+  background: linear-gradient(#2ea1aa #06bc7a);
 }
 
 .under-bar {
