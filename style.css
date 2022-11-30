@@ -56,6 +56,41 @@ a {
   background-size: cover;
 }
 
+.difference01 {
+  background-image: url(./img/difference_tmb01.png);
+  height: 177px;
+  background-size: contain;
+}
+
+.difference02 {
+  background-image: url(./img/difference_tmb02.png);
+  height: 177px;
+  background-size: contain;
+}
+
+.difference03 {
+  background-image: url(./img/difference_tmb03.png);
+  height: 177px;
+  background-size: contain;
+}
+
+.difference04 {
+  background-image: url(./img/difference_tmb04.png);
+  height: 177px;
+  background-size: contain;
+}
+
+.difference05 {
+  background-image: url(./img/difference_tmb05.png);
+  height: 177px;
+  background-size: contain;
+}
+
+.border {
+  border-bottom: 2px solid #007979;
+  width: 90%;
+}
+
 /** layout **/
 .froat {
   float: left;
@@ -105,8 +140,16 @@ a {
   gap: 36px;
 }
 
+.gap-30 {
+  gap: 30px;
+}
+
 .gap-23 {
   gap: 23px;
+}
+
+.gap-12 {
+  gap: 12px;
 }
 
 .gap-10 {
@@ -121,8 +164,8 @@ a {
   gap: 7px;
 }
 
-.gap-3 {
-  gap: px;
+.gap-5 {
+  gap: 5px;
 }
 
 .relative {
@@ -292,6 +335,10 @@ a {
   padding-top: 10px;
 }
 
+.pt-23 {
+  padding-top: 23px;
+}
+
 .pt-40 {
   padding-top: 40px;
 }
@@ -308,12 +355,24 @@ a {
   padding-top: 15px;
 }
 
+.pt-8 {
+  padding-top: 8px;
+}
+
 .pt-14 {
   padding-top: 14px;
 }
 
+.pb-8 {
+  padding-bottom: 8px;
+}
+
 .pb-15 {
   padding-bottom: 15px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
 }
 
 .pb-297 {
@@ -336,6 +395,10 @@ a {
   margin-top: 80px;
 }
 
+.mt-65 {
+  margin-top: 65px;
+}
+
 .mt-20 {
   margin-top: 20px;
 }
@@ -346,6 +409,14 @@ a {
 
 .mb-60 {
   margin-bottom: 60px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-7 {
+  margin-bottom: 7px;
 }
 
 .mx-5 {
@@ -416,6 +487,10 @@ a {
 
 .width-90p {
   width: 90%;
+}
+
+.width-80p {
+  width: 80%;
 }
 
 .height-57 {
@@ -526,6 +601,10 @@ a {
   font-size: 23px;
 }
 
+.text-24 {
+  font-size: 24px;
+}
+
 .text-25 {
   font-size: 25px;
 }
@@ -550,6 +629,10 @@ a {
 
 .border-radius9 {
   border-radius: 9px;
+}
+
+.border-radius15 {
+  border-radius: 15.24px;
 }
 
 .border-radius {
