@@ -132,6 +132,11 @@
     margin-bottom: 50px;
   }
 
+  .xl_mx-100 {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
   /* font size */
 
   .xl_text-15 {
