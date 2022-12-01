@@ -163,6 +163,10 @@ a {
   display: none;
 }
 
+.rotate {
+  transform: scale(-1, 1);
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -470,6 +474,10 @@ a {
   padding-bottom: 50px;
 }
 
+.pb-170 {
+  padding-bottom: 170px;
+}
+
 .pb-297 {
   padding-bottom: 297px;
 }
@@ -665,6 +673,7 @@ a {
 
 .under-bar-y {
   background: linear-gradient(transparent 60%, #f2c94c 60%);
+  width: fit-content;
 }
 
 .text-nomal {

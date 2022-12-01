@@ -7,6 +7,10 @@
     margin: 0px auto !important;
   }
 
+  .xl_none {
+    display: none;
+  }
+
   /* layout */
 
   .xl_m-auto {
@@ -63,6 +67,10 @@
     width: 1100px;
   }
 
+  .xl_width-500 {
+    width: 500px;
+  }
+
   .xl_width-350 {
     width: 350px;
   }
@@ -73,6 +81,10 @@
 
   .xl_width-120 {
     width: 120px;
+  }
+
+  .xl_height-360 {
+    height: 360px;
   }
 
   .xl_top-100 {
@@ -107,6 +119,10 @@
   .xl_py0 {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .xl_pt-60 {
+    padding-top: 60px;
   }
 
   .xl_px80 {
