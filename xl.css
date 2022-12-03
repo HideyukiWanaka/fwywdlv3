@@ -17,6 +17,10 @@
     margin: 0px auto !important;
   }
 
+  .xl_gap-5 {
+    gap: 5px;
+  }
+
   .xl_grid {
     width: 100%;
     display: grid;
@@ -81,6 +85,10 @@
 
   .xl_width-120 {
     width: 120px;
+  }
+
+  .xl_width-83p {
+    width: 83%;
   }
 
   .xl_height-360 {

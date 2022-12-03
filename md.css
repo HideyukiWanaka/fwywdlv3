@@ -151,6 +151,11 @@
     margin-top: 0px;
   }
 
+  .md_mx-5 {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+
   .md_width-100p {
     width: 100%;
   }
@@ -230,6 +235,11 @@
     padding-bottom: 30px;
   }
 
+  .md_px-43 {
+    padding-right: 43px;
+    padding-left: 43px;
+  }
+
   .md_gap-20 {
     gap: 20px;
   }
@@ -246,6 +256,10 @@
   /** font size **/
   .md_text-10 {
     font-size: 10px;
+  }
+
+  .md_text-16 {
+    font-size: 16px;
   }
 
   .md_bg-color-op {

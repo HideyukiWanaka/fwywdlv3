@@ -331,8 +331,8 @@ a {
   left: 50%;
 }
 
-.left-281 {
-  left: 281px;
+.right-27 {
+  right: 27px;
 }
 
 .left-30 {
@@ -378,9 +378,14 @@ a {
   padding-right: 60px;
 }
 
-.px-39 {
+.px-47 {
   padding-left: 47px;
   padding-right: 47px;
+}
+
+.px-43 {
+  padding-left: 43px;
+  padding-right: 43px;
 }
 
 .px-23 {
@@ -620,8 +625,16 @@ a {
   width: 18px;
 }
 
+.width-95p {
+  width: 94%;
+}
+
 .width-92p {
   width: 92%;
+}
+
+.width-100p {
+  width: 100%;
 }
 
 .width-90p {
@@ -767,6 +780,10 @@ a {
 
 .text-32 {
   font-size: 32px;
+}
+
+.text-50 {
+  font-size: 50px;
 }
 
 .btn:hover {
