@@ -46,6 +46,10 @@
     grid-column: 1/2;
   }
 
+  .lg_grid-row3 {
+    grid-template-columns: 0.6fr 1fr 1fr;
+  }
+
   .lg_btn-layout {
     grid-row: 2/3;
     grid-column: 1/2;
@@ -155,6 +159,10 @@
     margin-bottom: 10px;
   }
 
+  .lg_gap-80 {
+    gap: 80px;
+  }
+
   .lg_gap-40 {
     gap: 40px;
   }
@@ -163,8 +171,16 @@
     gap: 20px;
   }
 
+  .lg_gap-8 {
+    gap: 8px;
+  }
+
   .lg_width-100p {
     width: 100%;
+  }
+
+  .lg_width-80p {
+    width: 80%;
   }
 
   .lg_width-580 {
