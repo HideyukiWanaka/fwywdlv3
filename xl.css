@@ -124,6 +124,11 @@
     padding-bottom: 20px;
   }
 
+  .xl_py25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
   .xl_py0 {
     padding-top: 0px;
     padding-bottom: 0px;

@@ -80,10 +80,10 @@ a {
 
 .border-box::after {
   position: absolute;
-  top: -6px;
-  bottom: -6px;
-  left: -6px;
-  right: -6px;
+  top: -3px;
+  bottom: -3px;
+  left: -3px;
+  right: -3px;
   background: linear-gradient(to right, #2ea1aa 0%, #06bc7a 100%);
   content: "";
   z-index: -1;
@@ -408,6 +408,11 @@ a {
   padding-right: 14px;
 }
 
+.py-165 {
+  padding-top: 165px;
+  padding-bottom: 165px;
+}
+
 .py-83 {
   padding-top: 83px;
   padding-bottom: 83px;
@@ -605,6 +610,10 @@ a {
   width: 96px;
 }
 
+.width-71 {
+  width: 71px;
+}
+
 .width-65 {
   width: 65px;
 }
@@ -756,6 +765,10 @@ a {
 
 .text-18 {
   font-size: 18px;
+}
+
+.text-19 {
+  font-size: 19px;
 }
 
 .text-20 {
