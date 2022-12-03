@@ -119,6 +119,11 @@
     padding-right: 50px;
   }
 
+  .lg_py-80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
   .lg_py40 {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -180,6 +185,14 @@
 
   .lg_width-200 {
     width: 200px;
+  }
+
+  .lg_width-150 {
+    width: 150px;
+  }
+
+  .lg_width-96 {
+    width: 96px;
   }
 
   .lg_width-80 {
